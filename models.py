@@ -1,6 +1,6 @@
 from db import db
 
-# Create the User model for sqlAlchemy to work #
+# Create the User model for sqlAlchemy to work
 
 class User(db.Model):
     id = db.Column(db.Integer, primary_key=True)
